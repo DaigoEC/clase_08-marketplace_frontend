@@ -16,7 +16,7 @@ export default function Home() {
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">
             {user
-              ? `Biembnido, ${user.name}!`
+              ? `Bienvenido, ${user.name}!`
               : "Bienvenido a la página principal"}
           </h1>
           <p className="mb-5">
